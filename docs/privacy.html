@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meeting 개인정보처리방침 (Privacy Policy)</title>
+<style>
+  :root { --bg:#ffffff; --fg:#0a0a0a; --sub:#555555; --line:#e4e4e4; --panel:#f6f6f6; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0a0a0a; --fg:#f5f5f5; --sub:#a6a6a6; --line:#2b2b2b; --panel:#151515; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font-family:"Malgun Gothic","Segoe UI",system-ui,sans-serif; line-height:1.75; }
+  main { max-width:760px; margin:0 auto; padding:56px 20px 72px; }
+  h1 { font-family:"Noto Serif KR",Batang,serif; font-weight:500; font-size:32px; margin:0 0 4px; }
+  h2 { font-size:19px; margin:36px 0 8px; }
+  p, li, td, th { font-size:16px; }
+  .sub { color:var(--sub); margin:0 0 20px; }
+  .card { background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:16px 20px; margin:12px 0; }
+  .table-wrap { overflow-x:auto; }
+  table { border-collapse:collapse; width:100%; min-width:520px; }
+  th, td { border:1px solid var(--line); padding:10px 12px; text-align:left; vertical-align:top; }
+  th { background:var(--panel); }
+  ul { padding-left:20px; margin:8px 0; }
+  a { color:var(--fg); }
+  hr { border:0; border-top:1px solid var(--line); margin:48px 0 28px; }
+  footer { margin-top:40px; padding-top:18px; border-top:1px solid var(--line); color:var(--sub); font-size:14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Meeting 개인정보처리방침</h1>
+  <p class="sub">시행일: 2026년 11월 16일 · <a href="index.html">Meeting 소개로 돌아가기</a></p>
+
+  <div class="card">
+    <b>한 줄 요약</b><br>
+    Meeting 은 사용자의 PC 에서만 돌아가는 프로그램입니다. 만든 사람은 서버를 운영하지 않으며, 사용자의 회의 기록·녹음·구글 계정 정보를
+    받지도 보관하지도 않습니다. 자료는 사용자의 PC 와 사용자 본인의 구글 드라이브에만 있습니다.
+  </div>
+
+  <h2>1. 이 프로그램이 다루는 정보</h2>
+  <div class="table-wrap">
+  <table>
+    <tr><th>정보</th><th>어디에 쓰나</th><th>어디에 있나</th></tr>
+    <tr><td>구글 계정의 메일 주소</td><td>지금 로그인한 계정을 확인하고 화면에 보여 줌</td><td>사용자 PC 의 설정 파일</td></tr>
+    <tr><td>구글 로그인 열쇠(토큰)</td><td>로그인을 유지하고 사용자의 드라이브에 올리고 내려받음</td><td>사용자 PC 에만, 그 윈도우 계정에서만 풀리게 암호화해서 저장</td></tr>
+    <tr><td>회의 기록(대화록·요약·내 노트)</td><td>회의 목록과 복습 화면에 보여 줌</td><td>사용자 PC, 그리고 켜 둔 경우 사용자 본인의 구글 드라이브</td></tr>
+    <tr><td>녹음·화면 녹화 파일</td><td>사용자가 다시 듣고 봄</td><td>사용자 PC, 그리고 켜 둔 경우 사용자 본인의 구글 드라이브</td></tr>
+    <tr><td>회의 중 소리와 글</td><td>받아쓰기·번역·요약을 만들기 위해 구글 Gemini API 로 보냄</td><td>사용자 본인의 Gemini API 키로 구글에 전송(아래 3번)</td></tr>
+  </table>
+  </div>
+  <p>구글 비밀번호는 구글의 로그인 화면(인터넷 창)에서만 입력합니다. Meeting 은 비밀번호를 받지도 보지도 않습니다.</p>
+
+  <h2>2. 구글 계정 정보와 구글 드라이브의 사용</h2>
+  <p>Meeting 이 구글에 요청하는 권한은 다음뿐입니다.</p>
+  <ul>
+    <li><b>메일 주소 보기</b>(<code>openid</code>, <code>email</code>) — 로그인한 계정을 확인하는 데만 씁니다. 메일함은 볼 수 없습니다.</li>
+    <li><b>이 프로그램이 만든 드라이브 파일만 보기·수정</b>(<code>drive.file</code>) — 사용자의 드라이브에 'Meeting' 폴더를 만들어
+      회의 기록·녹음·영상·내 노트를 올리고, 같은 계정으로 로그인한 다른 PC 에서 내려받는 데만 씁니다.
+      사용자의 드라이브에 있는 다른 파일은 볼 수도, 바꿀 수도, 지울 수도 없습니다.</li>
+  </ul>
+  <p>구글 API 로 받은 정보는 위에 적은, 사용자에게 보이는 기능을 제공하는 데만 씁니다. 다른 사람이나 회사에 넘기거나 팔지 않고,
+    광고에 쓰지 않으며, 인공지능을 학습시키는 데 쓰지 않습니다. 만든 사람을 포함해 어떤 사람도 이 정보를 읽지 않습니다
+    (정보가 사용자의 PC 밖, 사용자의 드라이브 밖으로 나가지 않기 때문입니다).</p>
+  <p>Meeting 이 구글 API 에서 받은 정보를 쓰고 다른 앱으로 옮기는 방식은
+    <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API 서비스 사용자 데이터 정책</a>
+    (제한적 사용 요건 포함)을 따릅니다.</p>
+
+  <h2>3. 구글 Gemini API 로 보내는 것</h2>
+  <p>번역과 요약은 사용자가 직접 넣은 본인의 Gemini API 키로 구글 Gemini API 를 불러 만듭니다. 이때 회의 중 들리는 소리, 받아쓴 글,
+    사용자가 적은 메모·용어집이 구글로 전송됩니다. 이 전송은 사용자와 구글 사이에서 이뤄지며, 구글이 그 내용을 어떻게 다루는지는
+    구글의 Gemini API 약관과 사용자의 요금제에 따릅니다(무료 등급에서는 구글이 서비스 개선에 쓸 수 있습니다).
+    구글 드라이브에 있는 파일을 Gemini 로 보내지는 않습니다.</p>
+
+  <h2>4. 만든 사람이 받는 정보</h2>
+  <p>없습니다. Meeting 에는 사용 기록을 모으는 기능(분석·추적·광고)이 없고, 만든 사람의 서버도 없습니다.
+    프로그램이 새 버전이 있는지 확인하려고 GitHub 에서 버전 정보 파일을 내려받을 때, GitHub 에는 일반적인 접속 기록(IP 주소 등)이 남을 수 있습니다.</p>
+
+  <h2>5. 보관과 삭제</h2>
+  <ul>
+    <li>회의 기록·녹음·영상은 사용자가 지울 때까지 사용자의 PC 에 있습니다. 프로그램 안에서 회의를 지우면 PC 의 파일이 지워지고,
+      드라이브에 올라간 그 기록은 드라이브의 휴지통으로 옮겨집니다.</li>
+    <li>드라이브에 올라간 파일은 구글 드라이브에서 언제든 직접 지울 수 있습니다.</li>
+    <li>프로그램에서 로그아웃하면 그 PC 에 저장된 로그인 열쇠가 지워집니다. 프로그램을 삭제하면 설정과 열쇠가 함께 지워집니다.</li>
+    <li>구글 계정의 <a href="https://myaccount.google.com/permissions">서드 파티 앱 및 서비스</a>에서 Meeting 의 접근을 언제든 끊을 수 있습니다.</li>
+  </ul>
+
+  <h2>6. 보안</h2>
+  <p>구글 로그인 열쇠와 Gemini API 키는 윈도우의 암호화 기능으로 그 PC 의 그 윈도우 계정에서만 풀리게 저장합니다.
+    구글과의 통신은 모두 암호화 연결(HTTPS)을 씁니다. 회의 기록과 녹음 파일 자체는 사용자의 PC 폴더에 일반 파일로 저장되므로,
+    PC 와 윈도우 계정의 보안은 사용자가 관리해야 합니다.</p>
+
+  <h2>7. 다른 사람의 목소리</h2>
+  <p>회의를 기록하거나 녹음하면 다른 참석자의 말이 함께 담깁니다. 필요한 경우 참석자에게 미리 알리고 동의를 받는 것은 사용자의 책임입니다.</p>
+
+  <h2>8. 어린이</h2>
+  <p>Meeting 은 어린이를 대상으로 만든 프로그램이 아닙니다.</p>
+
+  <h2>9. 바뀌는 경우</h2>
+  <p>이 방침이 바뀌면 이 페이지에 새 시행일과 함께 올립니다.</p>
+
+  <h2>10. 문의</h2>
+  <p><a href="https://github.com/eanleedsk/meeting-app/issues">GitHub 이슈</a>에 남겨 주세요.</p>
+
+  <hr>
+
+  <h1>Privacy Policy (English)</h1>
+  <p class="sub">Effective: November 16, 2026</p>
+  <div class="card">
+    <b>Summary</b><br>
+    Meeting is a desktop app that runs only on your PC. The developer operates no server and does not receive or store your meeting
+    records, recordings or Google account information. Your data stays on your PC and in your own Google Drive.
+  </div>
+  <h2>Google user data</h2>
+  <p>Meeting requests only these Google permissions:</p>
+  <ul>
+    <li><b>Your email address</b> (<code>openid</code>, <code>email</code>) — used only to identify and display the signed-in account. The app cannot read your mail.</li>
+    <li><b>Google Drive files created by this app only</b> (<code>drive.file</code>) — used only to create a "Meeting" folder in your Drive, upload your
+      own meeting records, audio/video recordings and notes, and download them on another PC where you sign in with the same account.
+      The app cannot see, change or delete any other file in your Drive.</li>
+  </ul>
+  <p>Data obtained through Google APIs is used only to provide these user-facing features. It is not transferred or sold to third parties,
+    not used for advertising, and not used to train AI models. No human, including the developer, reads this data, because it never leaves
+    your PC and your own Drive. The sign-in token is stored only on your PC, encrypted with Windows data protection for your Windows account.
+    Your Google password is entered only on Google's own sign-in page; the app never receives it.</p>
+  <p>Meeting's use and transfer to any other app of information received from Google APIs will adhere to the
+    <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+  <h2>Gemini API</h2>
+  <p>Translation and summaries are generated by calling the Google Gemini API with <i>your own</i> API key. Audio heard during a meeting, the
+    transcribed text, and notes or glossary terms you entered are sent to Google for that purpose, under Google's Gemini API terms for your plan.
+    Files stored in your Google Drive are not sent to Gemini.</p>
+  <h2>Data the developer receives</h2>
+  <p>None. The app has no analytics, tracking or advertising, and there is no developer server. When the app checks for updates it downloads a
+    version file from GitHub, which may log standard connection data such as your IP address.</p>
+  <h2>Retention and deletion</h2>
+  <p>Records and recordings stay on your PC until you delete them. Deleting a meeting in the app deletes the local files and moves the uploaded
+    record to your Drive trash. You can delete uploaded files in Google Drive at any time, sign out in the app to remove the stored token, and
+    revoke the app's access at <a href="https://myaccount.google.com/permissions">your Google Account permissions page</a>.</p>
+  <h2>Contact</h2>
+  <p>Please open an issue at <a href="https://github.com/eanleedsk/meeting-app/issues">github.com/eanleedsk/meeting-app/issues</a>.</p>
+
+  <footer><a href="index.html">Meeting</a> · <a href="https://github.com/eanleedsk/meeting-app">GitHub</a></footer>
+</main>
+</body>
+</html>
