@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meeting - 영어 회의 실시간 번역·기록</title>
+<meta name="description" content="Meeting 은 PC 에서 들리는 영어 회의를 실시간으로 한국어로 보여 주고, 회의 기록과 복습 자료를 만들어 주는 윈도우 프로그램입니다.">
+<style>
+  :root { --bg:#ffffff; --fg:#0a0a0a; --sub:#555555; --line:#e4e4e4; --panel:#f6f6f6; --accent:#0a0a0a; --on:#ffffff; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0a0a0a; --fg:#f5f5f5; --sub:#a6a6a6; --line:#2b2b2b; --panel:#151515; --accent:#ffffff; --on:#0a0a0a; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font-family:"Malgun Gothic","Segoe UI",system-ui,sans-serif; line-height:1.7; }
+  main { max-width:760px; margin:0 auto; padding:56px 20px 72px; }
+  h1 { font-family:"Noto Serif KR",Batang,serif; font-weight:500; font-size:40px; margin:0 0 6px; }
+  h2 { font-size:19px; margin:40px 0 10px; }
+  p, li { color:var(--fg); font-size:16px; }
+  .lead { color:var(--sub); font-size:18px; margin:0 0 26px; }
+  .card { background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:18px 20px; margin:12px 0; }
+  ul { padding-left:20px; margin:8px 0; }
+  a { color:var(--fg); }
+  .btn { display:inline-block; background:var(--accent); color:var(--on); text-decoration:none; font-weight:700; padding:12px 20px; border-radius:22px; margin:6px 8px 6px 0; }
+  .ghost { background:transparent; color:var(--fg); border:1px solid var(--line); }
+  footer { margin-top:48px; padding-top:18px; border-top:1px solid var(--line); color:var(--sub); font-size:14px; }
+  .en { color:var(--sub); font-size:15px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Meeting</h1>
+  <p class="lead">영어 회의를 실시간으로 한국어로 보여 주고, 회의가 끝나면 기록과 복습 자료를 만들어 주는 윈도우 프로그램</p>
+
+  <a class="btn" href="https://github.com/eanleedsk/meeting-app/releases/latest">최신 버전 받기</a>
+  <a class="btn ghost" href="privacy.html">개인정보처리방침</a>
+
+  <h2>무엇을 하나요</h2>
+  <div class="card">
+    <ul>
+      <li><b>실시간 번역</b> — PC 에서 들리는 영어(영상 통화·온라인 회의·강의)를 한국어 자막으로 보여 줍니다.</li>
+      <li><b>회의 기록</b> — 회의가 끝나면 요약, 할 일, 대화록, 영어 메일 초안을 만들어 날짜별로 모읍니다.</li>
+      <li><b>영어 공부</b> — 회의에 나온 표현과 내 영어에서 고칠 점을 모아 복습 카드로 보여 줍니다.</li>
+      <li><b>답변 도우미</b> — 상대가 물으면 내가 할 수 있는 영어 답을 보여 주고, 한국어로 쓰면 영어 문장으로 바꿔 줍니다.</li>
+      <li><b>녹음·화면 녹화</b> — 회의 소리나 화면을 내 PC 에 파일로 저장합니다.</li>
+    </ul>
+  </div>
+
+  <h2>구글 계정은 어디에 쓰나요</h2>
+  <div class="card">
+    <p style="margin-top:0">Meeting 은 구글 계정으로 로그인해서 씁니다. 로그인에 쓰는 것은 두 가지뿐입니다.</p>
+    <ul>
+      <li><b>메일 주소</b> — 지금 누구로 로그인했는지 확인하고 화면에 보여 주는 데만 씁니다.</li>
+      <li><b>구글 드라이브(이 프로그램이 올린 파일만)</b> — 내 회의 기록·녹음·영상·노트를 내 드라이브의 'Meeting' 폴더에 올려 두고,
+        다른 PC 에서 같은 계정으로 로그인했을 때 이어서 볼 수 있게 합니다. 드라이브의 다른 파일은 볼 수도, 바꿀 수도 없습니다.</li>
+    </ul>
+    <p style="margin-bottom:0">자료는 사용자의 PC 와 사용자 본인의 구글 드라이브에만 있습니다. 만든 사람의 서버로 보내지 않습니다.
+      자세한 내용은 <a href="privacy.html">개인정보처리방침</a>을 보세요.</p>
+  </div>
+
+  <h2>준비물</h2>
+  <div class="card">
+    <ul>
+      <li>윈도우 10 또는 11 PC</li>
+      <li>구글 계정</li>
+      <li>본인의 Gemini API 키(구글 AI Studio 에서 무료로 만들 수 있습니다)</li>
+    </ul>
+  </div>
+
+  <h2>문의</h2>
+  <p>궁금한 점이나 문제는 <a href="https://github.com/eanleedsk/meeting-app/issues">GitHub 이슈</a>에 남겨 주세요.</p>
+
+  <h2>In English</h2>
+  <p class="en"><b>Meeting</b> is a Windows desktop app that shows live Korean subtitles for English meetings heard on your PC and,
+    after each meeting, builds a summary, to-dos, a transcript and review material for learning English. You sign in with your Google
+    account. The app uses your email address only to show which account is signed in, and uses Google Drive only for files the app
+    itself created (the <code>drive.file</code> scope), so that your own meeting records can be backed up to your own Drive and
+    opened on another PC. Your data stays on your PC and in your own Google Drive; it is not sent to the developer.
+    See the <a href="privacy.html">Privacy Policy</a>.</p>
+
+  <footer>Meeting · <a href="privacy.html">개인정보처리방침 (Privacy Policy)</a> · <a href="https://github.com/eanleedsk/meeting-app">GitHub</a></footer>
+</main>
+</body>
+</html>
